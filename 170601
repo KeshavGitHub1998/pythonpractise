@@ -1,3 +1,7 @@
 def square(s):
     return(s*s)
 print(square(10))
+##
+lst=['a','ab','cccc','ddd']
+lst2=sorted(lst,key=len)
+print(lst2)
